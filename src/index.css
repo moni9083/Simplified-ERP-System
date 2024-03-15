@@ -1,0 +1,57 @@
+/* index.css */
+
+/* Global styles for the entire application */
+
+/* Apply a background color to the entire page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #eeeeee; /* Light gray background color */
+}
+
+/* Style links across the application */
+a {
+  color: #3498db; /* Blue link color */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #2980b9; /* Darker blue color on hover */
+}
+
+/* Add a subtle box shadow to elements on hover */
+:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply a subtle border to input elements */
+input {
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 8px;
+  transition: border 0.3s ease; /* Smooth border transition on focus */
+}
+
+input:focus {
+  border: 1px solid #3498db; /* Blue border on focus */
+}
+
+/* Style headings across the application */
+h1, h2, h3 {
+  color: #333; /* Dark gray heading color */
+}
+
+/* Style buttons consistently */
+button {
+  padding: 10px 20px;
+  background-color: #2ecc71; /* Green button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+button:hover {
+  background-color: #27ae60; /* Darker green color on hover */
+}

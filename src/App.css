@@ -1,0 +1,219 @@
+/* app.css */
+
+/* Reset default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #867d79;; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+/* Center content vertically and horizontally */
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the content */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* White container background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow for depth */
+  border-radius: 8px; /* Rounded corners for a modern look */
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #333;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style navigation links */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Distribute links evenly */
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+  color: #61dafb; /* Change color on hover */
+}
+
+/* Center the heading */
+h1 {
+  text-align: center;
+  color: #007bff; /* Blue heading color */
+  margin-bottom: 30px;
+}
+.dashboard, .products, .orders {
+  background-color: #fff; /* White box background */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  width: 80%; /* Set the width of the boxes */
+}
+.Dashboard {
+  background-color: #3498db; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.Dashboard h1 {
+  font-size: 2em; /* Larger font size for the heading */
+}
+.Dashboard a {
+  color: #ecf0f1; /* Light grayish text color for links */
+  text-decoration: none;
+  margin-right: 20px;
+}
+.Dashboard a:hover {
+  text-decoration: underline;
+}
+.ProductsManagement {
+  background-color: #27ae60; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.ProductsManagement h1 {
+  font-size: 2em; /* Larger font size for the heading */
+}
+.ProductsManagement button {
+  background-color: #2ecc71; /* Light green button color */
+  margin-top: 10px;
+}
+.ProductsManagement button:hover {
+  background-color: #27ae60; /* Darker green color on hover */
+}
+.OrdersManagement {
+  background-color: #e74c3c; /* Red background color */
+  color: #fff; /* White text color */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.OrdersManagement h1 {
+  font-size: 2em; /* Larger font size for the heading */
+}
+
+.OrdersManagement table {
+  width: 100%;
+}
+
+.OrdersManagement th, .OrdersManagement td {
+  padding: 12px;
+}
+
+.OrdersManagement th {
+  background-color: #c0392b; /* Dark red header background color */
+}
+
+.OrdersManagement button {
+  background-color: #e74c3c; /* Red button color */
+  margin-top: 10px;
+}
+
+.OrdersManagement button:hover {
+  background-color: #c0392b; /* Darker red color on hover */
+}
+.products {
+  background-color: #2196F3; /* Blue color for the products */
+  color: #fff; /* Text color for the products */
+}
+.orders {
+  background-color: #FFC107; /* Yellow color for the orders */
+  color: #fff; /* Text color for the orders */
+}
+nav {
+  background-color: #333;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container section {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Improve the look of the buttons */
+button {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Responsive navigation for smaller screens */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+}
