@@ -1,5 +1,5 @@
 
-# Simplified ERP System with React
+# Simplified ERP System with React [Website Link](https://erp-system-monisankar-mula.netlify.app/)
 
 Simplified ERP System with React
 This project is a simplified interface for an ERP (Enterprise Resource Planning) system, aimed at efficiently managing basic business operations. It consists of three main pages: Dashboard, Products Management, and Orders Management. The project utilizes React for building modular components, managing application state, and React Router for navigation between different sections.
